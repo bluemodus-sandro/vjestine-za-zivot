@@ -1,0 +1,41 @@
+{
+  "research_as_of": "2026-09-22",
+  "task_count": 219,
+  "topics_per_book": {
+    "1": 60,
+    "2": 60,
+    "3": 60
+  },
+  "page_budgets": {
+    "1": 192,
+    "2": 224,
+    "3": 256
+  },
+  "source_count": 34,
+  "csv_row_counts": {
+    "01_master_roadmap.csv": 219,
+    "02_book_1_topics.csv": 60,
+    "03_book_2_topics.csv": 60,
+    "04_book_3_topics.csv": 60,
+    "05_products_and_companions.csv": 39,
+    "06_series_design_system.csv": 30,
+    "07_curriculum_mapping.csv": 55,
+    "08_policy_and_approval_tracker.csv": 15,
+    "09_risks_and_quality_gates.csv": 26,
+    "10_sources.csv": 34,
+    "11_module_missions.csv": 30
+  },
+  "validation": [
+    "All task IDs unique",
+    "All topic IDs unique",
+    "All dependencies exist and are acyclic",
+    "All predecessor date ranges finish before dependent starts",
+    "All source references resolve",
+    "All curriculum and mission topic references resolve",
+    "All CSVs round-trip with UTF-8 BOM and consistent columns",
+    "No formula-like cells or unresolved transliteration tokens",
+    "Book page budgets reconcile",
+    "Jump-start chapter uses qualified-professional tier"
+  ],
+  "scope": "Plan validation only; not professional content or official educational approval"
+}
